@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBconnect-Web.config Connection String" description="DBconnect Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS; Initial Catalog=StudentsManagement; UID=sa; PWD=123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Randow\\Downloads\\quản\ lí\ sinh\ viên\\StudentsManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBconnect']/@connectionString" />
+  </parameter>
+  <parameter name="StudentsManagementEntities-Web.config Connection String" description="StudentsManagementEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-0S894SO\SQLEXPRESS;initial catalog=StudentsManagement;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Randow\\Downloads\\quản\ lí\ sinh\ viên\\StudentsManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StudentsManagementEntities']/@connectionString" />
+  </parameter>
+</parameters>
