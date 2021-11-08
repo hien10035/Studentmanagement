@@ -4,8 +4,10 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bbdaed2646ca43e6868f23f3da6df4ea" Name="Diagram1">
-        <EntityTypeShape EntityType="StudentsManagementModel.Students" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+      <Diagram DiagramId="78ff5a43f6de47f6b48eb72516f7c7f0" Name="Diagram1">
+        <EntityTypeShape EntityType="StudentmanagementModel.Students" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentmanagementModel.database_firewall_rules" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentmanagementModel.ipv6_database_firewall_rules" Width="1.5" PointX="1" PointY="2.875" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

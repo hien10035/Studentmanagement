@@ -13,10 +13,10 @@ namespace StudentsManagement
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StudentsManagementEntities : DbContext
+    public partial class StudentmanagementEntities : DbContext
     {
-        public StudentsManagementEntities()
-            : base("name=StudentsManagementEntities")
+        public StudentmanagementEntities()
+            : base("name=StudentmanagementEntities")
         {
         }
     
@@ -26,5 +26,7 @@ namespace StudentsManagement
         }
     
         public virtual DbSet<Students> Students { get; set; }
+        public virtual DbSet<database_firewall_rules> database_firewall_rules { get; set; }
+        public virtual DbSet<ipv6_database_firewall_rules> ipv6_database_firewall_rules { get; set; }
     }
 }
