@@ -15,7 +15,7 @@ namespace StudentsManagement.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Hello mọi người";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
