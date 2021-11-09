@@ -13,11 +13,11 @@ namespace StudentsManagement.Models
     {
         public int ID { set; get; }
         [Required(ErrorMessage = "Nhap ho va ten sinh vien")]
-        [Display(Name = "Ho va ten:")]
+        [Display(Name = "Họ và tên:")]
 
         public string Fullname { set; get; }
-        [Required(ErrorMessage = "Nhap dia chi")]
-        [Display(Name = "Dia chi:")]
+        [Required(ErrorMessage = "Nhập địa chỉ")]
+        [Display(Name = "Địa chỉ:")]
         public string Address { set; get; }
 
     }
